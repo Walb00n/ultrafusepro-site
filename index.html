@@ -3,54 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UltraFuse Pro | Computational Photography</title>
-    <style>
-        /* This is the CSS (The "Skin") */
-        body {
-            background-color: #0d1117; /* Dark tech background */
-            color: #c9d1d9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 40px;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
-        h1 { color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 10px; }
-        .tech-card {
-            background: #161b22;
-            border: 1px solid #30363d;
-            padding: 20px;
-            border-radius: 8px;
-            font-family: 'Courier New', Courier, monospace; /* Tech look */
-        }
-        .footer {
-            margin-top: 50px;
-            font-size: 0.8em;
-            color: #8b949e;
-            text-align: center;
-        }
-    </style>
+    <title>UltraFuse Pro - File Fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>UltraFuse Pro</h1>
-        <p>Professional Visual Reconstruction Engine</p>
 
-        <div class="tech-card">
-            [DEPLOYMENT: v69.0.0] <br>
-            [ENGINE: ORYON UNCHAINED] <br>
-            [ACCELERATION: VULKAN GPU]
-        </div>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="logo.png" alt="UltraFuse Pro Logo"> 
+                <span>UltraFuse Pro</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#" class="get-btn">Get</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h2>About the Project</h2>
-        <p>UltraFuse Pro leverages advanced image stacking and 32-bit Radiance math to deliver uncompressed, high-fidelity results on Android hardware.</p>
-        
-        <div class="footer">
-            &copy; 2026 Valbon Jashari. All Rights Reserved.
+    <main class="container">
+        <section class="hero-text">
+            <h1>File Fusion. Perfectly Clear.</h1>
+            <p>Seamlessly combine, organize, and protect your Android files and media.<br>A pro tool, with clarity.</p>
+        </section>
+
+        <section class="content-grid">
+            <div class="phone-mockup">
+                <img src="phone-screenshot.png" alt="App Dashboard">
+            </div>
+
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="icon">📁</div>
+                    <div>
+                        <h3>Unified Media Merge</h3>
+                        <p>Combine everything.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🧹</div>
+                    <div>
+                        <h3>Optimized Performance</h3>
+                        <p>Clean duplicates and clutter.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">🛡️</div>
+                    <div>
+                        <h3>Ironclad Security</h3>
+                        <p>On-device data privacy.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="icon">☁️</div>
+                    <div>
+                        <h3>Global Cloud Integration</h3>
+                        <p>Access and sync cloud storage.</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h4>Ready to fuse?</h4>
+                    <a href="#" class="primary-btn">Get UltraFuse Pro</a>
+                    <div class="pricing-info">
+                        <img src="google-play-badge.png" alt="Get it on Google Play" class="play-badge">
+                        <span class="price">€4,99<br><small>One-time purchase</small></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </div>
+            <div class="social-icons">
+                <span>FB</span> <span>IG</span> <span>YT</span>
+            </div>
         </div>
-    </div>
+    </footer>
+
 </body>
 </html>
