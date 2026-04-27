@@ -137,3 +137,29 @@ footer {
     color: var(--text-sub);
     text-decoration: none;
 }
+/* Add this to the top of your CSS for that smooth background */
+body {
+    background: radial-gradient(circle at top, #ffffff 0%, #e8e8ed 100%);
+    color: #1d1d1f;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* This creates the 'floating' effect for the phone mockup */
+.phone-mockup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 32px;
+    box-shadow: 0 50px 100px -20px rgba(50, 50, 93, 0.25), 
+                0 30px 60px -30px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling the 'Get' button to match the deep blue in the image */
+.primary-btn {
+    background-color: #051c4a;
+    transition: transform 0.2s ease;
+}
+
+.primary-btn:hover {
+    transform: scale(1.05);
+    background-color: #0a2a6b;
+}
